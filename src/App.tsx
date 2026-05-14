@@ -9,7 +9,7 @@ import {
   ShieldCheck, 
   Cpu, 
   Settings, 
-  Tool, 
+  Wrench, 
   MessageCircle, 
   Phone, 
   ChevronRight, 
@@ -128,8 +128,7 @@ const SectionTitle = ({ children, subtitle }: { children: React.ReactNode, subti
 const Navbar = () => (
   <nav className="fixed top-0 left-0 right-0 z-50 glass-morphism py-4">
     <div className="container mx-auto px-6 flex justify-between items-center">
-      <div className="flex items-center gap-2 group cursor-pointer">
-        <img src="/logo.png" alt="Trioneer Cycling Logo" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
+      <div className="group cursor-pointer">
         <span className="font-display font-bold text-xl tracking-tighter text-slate-900">TRIONEER <span className="text-blue-600">CYCLING</span></span>
       </div>
       <div className="hidden md:flex gap-8 items-center">
@@ -695,8 +694,7 @@ const Footer = () => (
   <footer className="py-12 border-t border-white/5 bg-surface-900">
     <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
       <div className="flex flex-col items-center md:items-start gap-4">
-        <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Trioneer Cycling Logo" className="w-8 h-8 object-contain" />
+        <div className="flex items-center">
           <span className="font-display font-bold text-lg tracking-tighter text-slate-900">TRIONEER <span className="text-blue-500">CYCLING</span></span>
         </div>
         <p className="text-slate-500 text-sm">© 2026 Trioneer Cycling Store. All rights reserved.</p>
